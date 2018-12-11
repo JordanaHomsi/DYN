@@ -37,6 +37,10 @@ c(Case_28_501_Mean_SA,Case_28_502_Mean_SA,Case_28_503_Mean_SA,Case_28_504_Mean_S
 SA_Mean <- mean(c(Case_28_501_Mean_SA,Case_28_502_Mean_SA,Case_28_503_Mean_SA,Case_28_504_Mean_SA,Case_28_505_Mean_SA,Case_28_506_Mean_SA,Case_28_598_Mean_SA,Case_28_599_Mean_SA,Case_31_501_Mean_SA,Case_31_502_Mean_SA,Case_31_503_Mean_SA))
 SA_SD <- sd(c(Case_28_501_Mean_SA,Case_28_502_Mean_SA,Case_28_503_Mean_SA,Case_28_504_Mean_SA,Case_28_505_Mean_SA,Case_28_506_Mean_SA,Case_28_598_Mean_SA,Case_28_599_Mean_SA,Case_31_501_Mean_SA,Case_31_502_Mean_SA,Case_31_503_Mean_SA))
 
+
+#lembrar de merge as atualizações
+
+
 #média dos NIH por caso
 Case_28_501_Mean_NIH<-round(mean(as.numeric(Case_28_501_FU_CS$NIH)),4)
 Case_28_502_Mean_NIH<-round(mean(as.numeric(Case_28_502_FU_CS$NIH)),4)
